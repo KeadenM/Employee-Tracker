@@ -5,8 +5,11 @@ const connection = mysql.createConnection({
     host: "localhost",
     user: "root",
     database: "employee_tracker_db",
-    password: "cookies",
+    password: "",
 });
+
+init();
+
 connection.connect();
 function getEmployees() {
     return new Promise((resolve)  => {

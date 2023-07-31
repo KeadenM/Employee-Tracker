@@ -4,21 +4,24 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/KeadenM/Employee-Tracker.git"
+        "type": "git",
+        "url": "git+https://github.com/KeadenM/Employee-Tracker.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/KeadenM/Employee-Tracker/issues"
+        "url": "https://github.com/KeadenM/Employee-Tracker/issues"
     },
     "homepage": "https://github.com/KeadenM/Employee-Tracker#readme",
     "dependencies": {
-      "inquirer": "^8.2.4",
-      "mysql": "^2.18.1",
-      "mysql2": "^3.3.1"
+        "express": "^4.18.2",
+        "fs": "^0.0.1-security",
+        "http2": "^3.3.7",
+        "inquirer": "^8.2.4",
+        "mysql": "^2.18.1",
+        "mysql2": "^3.3.1"
     }
-  }
+}
